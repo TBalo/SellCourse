@@ -7,7 +7,7 @@ import { ChangeDetectorRef } from "@angular/core";
 @Component({
   selector: "app-cart-item",
   standalone: true,
-  imports: [NgIf, CommonModule, CourseComponent],
+  imports: [CommonModule, CourseComponent],
   template: `
     <div class="listing" (click)="toggleInfo()">
       <img class="listing-photo" [src]="cartItem.photo" />

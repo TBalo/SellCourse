@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently \"ng serve\" \"json-server --watch data.json --port 3000\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve-json": "json-server --watch data.json"
+    "serve-json": "json-server --watch data.json",
+    "json-server": "json-server --watch data.json --port 3000"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +22,9 @@
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
     "axios": "^1.6.5",
-    "json-server": "^1.0.0-alpha.20",
+    "concurrently": "^8.2.2",
+    "json-server": "^1.0.0-alpha.21",
+    "ngx-toastr": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"

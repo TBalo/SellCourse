@@ -193,6 +193,13 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/elements@^17.0.9":
+  version "17.0.9"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-17.0.9.tgz#61d83dfe0cba4a9558087380b3eb3b712ed8e156"
+  integrity sha512-Z06tL6/Es3y4Q9nM7/U7dANGCAlZsfLYN+PCMSHWQvS4ssrpFWsg6per3T9CPMHAkoRzVnwLqO/qg0hzmDhiZw==
+  dependencies:
+    tslib "^2.3.0"
+
 "@angular/forms@^17.0.0":
   version "17.0.8"
   resolved "https://registry.npmjs.org/@angular/forms/-/forms-17.0.8.tgz"
@@ -1178,7 +1185,7 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@babel/runtime@^7.8.4":
+"@babel/runtime@^7.21.0", "@babel/runtime@^7.8.4":
   version "7.23.8"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.8.tgz"
   integrity sha512-Y7KbAP984rn1VGMbGqKmBLio9V7y5Je9GvU4rQPCPinCyNfUcToxIXl06d59URp/F3LwinvODxab5N/G6qggkw==
@@ -2658,7 +2665,7 @@ caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001565:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001576.tgz"
   integrity sha512-ff5BdakGe2P3SQsMsiqmt1Lc8221NR1VzHj5jXN5vBny9A6fpze94HiVV/n7XRosOlsShJcvMv5mdnpjOGCEgg==
 
-chalk@4.1.2, chalk@^4.1.0:
+chalk@4.1.2, chalk@^4.1.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -2840,6 +2847,21 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+concurrently@^8.2.2:
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-8.2.2.tgz#353141985c198cfa5e4a3ef90082c336b5851784"
+  integrity sha512-1dP4gpXFhei8IOtlXRE/T/4H88ElHgTiUzh71YUmtjTEHMSRS2Z/fgOxHSxxusGHogsRfxNq1vyAwxSC+EVyDg==
+  dependencies:
+    chalk "^4.1.2"
+    date-fns "^2.30.0"
+    lodash "^4.17.21"
+    rxjs "^7.8.1"
+    shell-quote "^1.8.1"
+    spawn-command "0.0.2"
+    supports-color "^8.1.1"
+    tree-kill "^1.2.2"
+    yargs "^17.7.2"
+
 connect-history-api-fallback@^1:
   version "1.6.0"
   resolved "https://registry.npmjs.org/connect-history-api-fallback/-/connect-history-api-fallback-1.6.0.tgz"
@@ -3017,6 +3039,13 @@ custom-event@~1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/custom-event/-/custom-event-1.0.1.tgz"
   integrity sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==
+
+date-fns@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 date-format@^4.0.14:
   version "4.0.14"
@@ -4425,10 +4454,10 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
-json-server@^1.0.0-alpha.20:
-  version "1.0.0-alpha.20"
-  resolved "https://registry.yarnpkg.com/json-server/-/json-server-1.0.0-alpha.20.tgz#a233cdb168b6d1e817607c780579950d140f886e"
-  integrity sha512-8ZKrY7xGcZXlL4nDGS73iNxxDp/HBTP5WY7gHs1jozuXYvoHsoVROb6HOpRi42H0TfN7atjNcFVhiIFjKIRK9A==
+json-server@^1.0.0-alpha.21:
+  version "1.0.0-alpha.21"
+  resolved "https://registry.yarnpkg.com/json-server/-/json-server-1.0.0-alpha.21.tgz#4e53ca0ea50710b71210bbd83f03c87264d20752"
+  integrity sha512-U6SWjpawo8+53bKSwpAaDkUplGNpG4k2/8CYkwLgSr7Vn1Tm/Z84DkLbChiMsyZaany+JV3u2ZZedIO7GFECjA==
   dependencies:
     "@tinyhttp/app" "^2.2.3"
     "@tinyhttp/cors" "^2.0.0"
@@ -5022,6 +5051,13 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+ngx-toastr@^18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-18.0.0.tgz#0016e897108817eb6b2ee16ff130b4c42fc214b0"
+  integrity sha512-jZ3rOG6kygl8ittY8OltIMSo47P1VStuS01igm3MZXK6InJwHVvxU7wDHI/HGMlXSyNvWncyOuFHnnMEAifsew==
+  dependencies:
+    tslib "^2.3.0"
 
 nice-napi@^1.0.2:
   version "1.0.2"
@@ -6280,6 +6316,11 @@ source-map@0.7.4:
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz"
   integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
 
+spawn-command@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/spawn-command/-/spawn-command-0.0.2.tgz#9544e1a43ca045f8531aac1a48cb29bdae62338e"
+  integrity sha512-zC8zGoGkmc8J9ndvml8Xksr1Amk9qBujgbF0JAIWO7kXr43w0h/0GJNM/Vustixu+YE8N/MTrQ7N31FvHUACxQ==
+
 spdx-correct@^3.0.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.2.0.tgz"
@@ -6461,7 +6502,7 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-supports-color@^8.0.0:
+supports-color@^8.0.0, supports-color@^8.1.1:
   version "8.1.1"
   resolved "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz"
   integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
@@ -6623,7 +6664,7 @@ totalist@^3.0.0:
   resolved "https://registry.yarnpkg.com/totalist/-/totalist-3.0.1.tgz#ba3a3d600c915b1a97872348f79c127475f6acf8"
   integrity sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==
 
-tree-kill@1.2.2:
+tree-kill@1.2.2, tree-kill@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
@@ -7071,7 +7112,7 @@ yargs@17.1.1:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yargs@17.7.2, yargs@^17.2.1, yargs@^17.3.1:
+yargs@17.7.2, yargs@^17.2.1, yargs@^17.3.1, yargs@^17.7.2:
   version "17.7.2"
   resolved "https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz"
   integrity sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==
