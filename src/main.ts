@@ -1,11 +1,23 @@
-import { bootstrapApplication, provideProtractorTestingSupport } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
+import {
+  bootstrapApplication,
+  provideProtractorTestingSupport,
+} from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
-import {provideRouter} from '@angular/router';
-import routes from './app/app.routes';
+import { provideRouter } from '@angular/router';
 import { provideHttpClient } from '@angular/common/http';
+import { provideToastr } from 'ngx-toastr';
+import { provideAnimations } from '@angular/platform-browser/animations';
+import routeConfig from './app/routes';
 
 bootstrapApplication(AppComponent, {
-  providers: [provideProtractorTestingSupport(), provideRouter(routes), provideHttpClient(),],
-})
-  .catch((err) => console.error(err));
+  providers: [
+    provideProtractorTestingSupport(),
+    provideRouter(routeConfig),
+    provideHttpClient(),
+    provideToastr({
+      timeOut: 10000,
+      preventDuplicates: true,
+    }),
+    provideAnimations(),
+  ],
+}).catch((err) => console.error(err));
