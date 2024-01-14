@@ -1,0 +1,287 @@
+{
+  "course": [
+    {
+      "id": "1",
+      "photo": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QWR2YW5jZWQlMjBNYWNoaW5lJTIwTGVhcm5pbmd8ZW58MHx8MHx8fDA%3D",
+      "courseName": "Advanced Machine Learning",
+      "author": "Alex Johnson",
+      "actualPrice": "₹1199",
+      "discountPercentage": "15%",
+      "tags": [
+        "Machine Learning",
+        " Python"
+      ]
+    },
+    {
+      "id": "2",
+      "photo": "https://media.istockphoto.com/id/1400256667/photo/javascript-lines-of-code-into-a-library-for-website-application-script-language-in-a-software.webp?b=1&s=170667a&w=0&k=20&c=tWpC9EQXWKTpghKRxJ_vsNC7q4C1YSeBt03152YX784=",
+      "courseName": "JavaScript Frameworks Masterclass",
+      "author": "Emily White",
+      "actualPrice": "₹899",
+      "discountPercentage": "20%",
+      "tags": [
+        "JavaScript",
+        " React",
+        " Vue"
+      ]
+    },
+    {
+      "id": "3",
+      "photo": "https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHl0aG9uJTIwRGphbmdvfGVufDB8fDB8fHww",
+      "courseName": "Full Stack Development with Django",
+      "author": "Chris Turner",
+      "actualPrice": "₹1499",
+      "discountPercentage": "10%",
+      "tags": [
+        "Python",
+        " Django",
+        " JavaScript"
+      ]
+    },
+    {
+      "id": "4",
+      "photo": "https://media.istockphoto.com/id/1492554629/photo/businessman-using-smartphone-technology-global-internet-connection-application-for-business.jpg?s=612x612&w=0&k=20&c=9VMnDKaljhlTMur6UWMHMNv3C8Kcb8872isDWfuWpo0=",
+      "courseName": "Cybersecurity Essentials",
+      "author": "Sophia Davis",
+      "actualPrice": "₹1299",
+      "discountPercentage": "25%",
+      "tags": [
+        "Cybersecurity",
+        " Network Security"
+      ]
+    },
+    {
+      "id": "5",
+      "photo": "https://media.istockphoto.com/id/1487455701/photo/neon-ux-ui-user-experience-user-interface-sign-on-black.webp?b=1&s=170667a&w=0&k=20&c=MsCkVrv615x_zsCPdx10wT8YNJqC9aTnvy9pwkmjffc=",
+      "courseName": "Mobile App UX Design",
+      "author": "Daniel Smith",
+      "actualPrice": "₹999",
+      "discountPercentage": "18%",
+      "tags": [
+        "UX Design",
+        " Mobile App Development"
+      ]
+    },
+    {
+      "id": "6",
+      "photo": "https://media.istockphoto.com/id/519044380/photo/word-node-js-on-wood-planks.webp?b=1&s=170667a&w=0&k=20&c=03aJOxOQi3zlvSPTdwVJ64BbRB52Px8895QP45e1Hmc=",
+      "courseName": "Node.js for Beginners",
+      "author": "Ava Williams",
+      "actualPrice": "₹699",
+      "discountPercentage": "22%",
+      "tags": [
+        "Node.js",
+        " JavaScript"
+      ]
+    },
+    {
+      "id": "7",
+      "photo": "https://media.istockphoto.com/id/1704685007/photo/businessman-show-virtual-graphic-of-ai-technology.jpg?s=612x612&w=0&k=20&c=M97tjG6Ij4uIs2YL_6vP2pFgDGVq-6613lODqUAsLBQ=",
+      "courseName": "Artificial Intelligence in Business",
+      "author": "Noah Turner",
+      "actualPrice": "₹1599",
+      "discountPercentage": "12%",
+      "tags": [
+        "Artificial Intelligence",
+        " Business"
+      ]
+    },
+    {
+      "id": "8",
+      "photo": "https://media.istockphoto.com/id/1271697775/photo/digital-transformation-concept-binary-code-ai.webp?b=1&s=170667a&w=0&k=20&c=mSBCjmcSloHzNbC3WE7FPuiVT4AcTOg4CaTxAuHiiqQ=",
+      "courseName": "Swift Programming for iOS",
+      "author": "Emma Johnson",
+      "actualPrice": "₹1099",
+      "discountPercentage": "17%",
+      "tags": [
+        "iOS",
+        " Swift"
+      ]
+    },
+    {
+      "id": "9",
+      "photo": "https://media.istockphoto.com/id/1301151581/photo/adaptive-and-responsive-web-design-concept-showing-sample-website-on-different-tech-gadgets.webp?b=1&s=170667a&w=0&k=20&c=U8r99dMIAaZe1i_ir20ItRsL8d6H2qaeoLY5ul0n01g=",
+      "courseName": "Responsive Web Design Principles",
+      "author": "Liam White",
+      "actualPrice": "₹799",
+      "discountPercentage": "21%",
+      "tags": [
+        "Web Design",
+        " HTML",
+        " CSS"
+      ]
+    },
+    {
+      "id": "10",
+      "photo": "https://media.istockphoto.com/id/1431876307/photo/businessman-clicks-java-programming-language-application-concept-on-virtual-screen.webp?b=1&s=170667a&w=0&k=20&c=BevKKWHr114G6SjJJF84w-VDvz7visVD86OuwkU_st4=",
+      "courseName": "Java Fundamentals",
+      "author": "Olivia Turner",
+      "actualPrice": "₹899",
+      "discountPercentage": "0",
+      "tags": [
+        "Java"
+      ]
+    },
+    {
+      "id": "11",
+      "photo": "https://media.istockphoto.com/id/1494842162/photo/business-people-hands-and-puzzle-piece-for-collaboration-planning-or-team-building-strategy.webp?b=1&s=170667a&w=0&k=20&c=0roM-ySxYhDGwFh4OWWznSOrDcn-3rH7c5eBMx31gbQ=",
+      "courseName": "Game Development with Unity",
+      "author": "Lucas Davis",
+      "actualPrice": "₹1399",
+      "discountPercentage": "14%",
+      "tags": [
+        "Game Development",
+        " Unity"
+      ]
+    },
+    {
+      "id": "12",
+      "photo": "https://media.istockphoto.com/id/1432637898/photo/button-with-the-python-on-the-yellow-keyboard-of-modern-laptop.webp?b=1&s=170667a&w=0&k=20&c=loymOqOdDX6uHWzUDyKdupCOV9XZaj5RyuKyMd_AOks=",
+      "courseName": "Python for Data Science",
+      "author": "Aria Smith",
+      "actualPrice": "₹1199",
+      "discountPercentage": "0",
+      "tags": [
+        "Python",
+        " Data Science"
+      ]
+    },
+    {
+      "id": "13",
+      "photo": "https://media.istockphoto.com/id/1487389484/photo/creative-front-end-developer-brainstorming-ui-design-scrutinize.webp?b=1&s=170667a&w=0&k=20&c=q3oc5XJBuCqVeLYr9nIvUyhv_94PpXz49hVacnr__qg=",
+      "courseName": "Frontend Development Bootcamp",
+      "author": "Mia Johnson",
+      "actualPrice": "₹999",
+      "discountPercentage": "18%",
+      "tags": [
+        "HTML",
+        " CSS",
+        " JavaScript"
+      ]
+    },
+    {
+      "id": "14",
+      "photo": "https://media.istockphoto.com/id/497213370/photo/c-red.webp?b=1&s=170667a&w=0&k=20&c=DKOEIbf5lsVZBar0rl7oZhc8EYRnUwL1OnVLR7_DCrc=",
+      "courseName": "C# Programming Mastery",
+      "author": "Jackson White",
+      "actualPrice": "₹1099",
+      "discountPercentage": "0",
+      "tags": [
+        "C#"
+      ]
+    },
+    {
+      "id": "15",
+      "photo": "https://media.istockphoto.com/id/1154261893/photo/programming-language-concept-system-engineering-software-development.webp?b=1&s=170667a&w=0&k=20&c=xj9SNruxtS3RawERmHl1Mk-fi_tZtzMYmd8EwOBqgJ0=",
+      "courseName": "Angular Framework Deep Dive",
+      "author": "Ava Turner",
+      "actualPrice": "₹1299",
+      "discountPercentage": "15%",
+      "tags": [
+        "Angular"
+      ]
+    },
+    {
+      "id": "16",
+      "photo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGF0YSUyMFZpc3VhbGl6YXRpb24lMjB3aXRoJTIwRDMuanN8ZW58MHx8MHx8fDA%3D",
+      "courseName": "Data Visualization with D3.js",
+      "author": "Ethan Davis",
+      "actualPrice": "₹899",
+      "discountPercentage": "0",
+      "tags": [
+        "Data Visualization",
+        " D3.js"
+      ]
+    },
+    {
+      "id": "17",
+      "photo": "https://media.istockphoto.com/id/1196702694/photo/designers-drawing-website-ux-app-development.webp?b=1&s=170667a&w=0&k=20&c=Ev7q0KlZn1YQJDIxlSAEG40qp4ZsWVS2aMU4nGUp1ho=",
+      "courseName": "Android App Development Basics",
+      "author": "Isabella Smith",
+      "actualPrice": "₹799",
+      "discountPercentage": "0",
+      "tags": [
+        "Android",
+        " Mobile App Development"
+      ]
+    },
+    {
+      "id": "18",
+      "photo": "https://images.unsplash.com/photo-1672307974995-cd253f7f7eeb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "courseName": "Vue.js for Frontend Development",
+      "author": "Logan Johnson",
+      "actualPrice": "₹999",
+      "discountPercentage": "18%",
+      "tags": [
+        "Vue.js",
+        " JavaScript"
+      ]
+    },
+    {
+      "id": "19",
+      "photo": "https://media.istockphoto.com/id/1403772309/photo/a-businesswoman-is-utilizing-her-cell-phone-to-connect-to-a-global-network-for-digital.jpg?s=612x612&w=0&k=20&c=zDPXH9RpPS7vAiRPCYsKB3fK2qES5KsocqU1H6_foLk=",
+      "courseName": "Cloud Computing Fundamentals",
+      "author": "Sophie Turner",
+      "actualPrice": "₹1199",
+      "discountPercentage": "16%",
+      "tags": [
+        "Cloud Computing"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "2",
+      "photo": "https://media.istockphoto.com/id/1400256667/photo/javascript-lines-of-code-into-a-library-for-website-application-script-language-in-a-software.webp?b=1&s=170667a&w=0&k=20&c=tWpC9EQXWKTpghKRxJ_vsNC7q4C1YSeBt03152YX784=",
+      "courseName": "JavaScript Frameworks Masterclass",
+      "author": "Emily White",
+      "price": 719.2,
+      "discountPercentage": "20%",
+      "tags": [
+        "JavaScript",
+        " React",
+        " Vue"
+      ]
+    },
+    {
+      "id": "2",
+      "photo": "https://media.istockphoto.com/id/1400256667/photo/javascript-lines-of-code-into-a-library-for-website-application-script-language-in-a-software.webp?b=1&s=170667a&w=0&k=20&c=tWpC9EQXWKTpghKRxJ_vsNC7q4C1YSeBt03152YX784=",
+      "courseName": "JavaScript Frameworks Masterclass",
+      "author": "Emily White",
+      "price": 719.2,
+      "discountPercentage": "20%",
+      "tags": [
+        "JavaScript",
+        " React",
+        " Vue"
+      ]
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "3",
+      "photo": "https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHl0aG9uJTIwRGphbmdvfGVufDB8fDB8fHww",
+      "courseName": "Full Stack Development with Django",
+      "author": "Chris Turner",
+      "price": 1349.1000000000001,
+      "discountPercentage": "10%",
+      "tags": [
+        "Python",
+        " Django",
+        " JavaScript"
+      ]
+    },
+    {
+      "id": "6",
+      "photo": "https://media.istockphoto.com/id/519044380/photo/word-node-js-on-wood-planks.webp?b=1&s=170667a&w=0&k=20&c=03aJOxOQi3zlvSPTdwVJ64BbRB52Px8895QP45e1Hmc=",
+      "courseName": "Node.js for Beginners",
+      "author": "Ava Williams",
+      "price": 545.22,
+      "discountPercentage": "22%",
+      "tags": [
+        "Node.js",
+        " JavaScript"
+      ]
+    }
+  ]
+}
