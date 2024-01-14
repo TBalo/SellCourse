@@ -3,6 +3,7 @@ import { Course } from "../../types/course";
 import { NgIf, CommonModule } from "@angular/common";
 import { CourseService } from "../../service/course.service";
 import { ToastrService } from "ngx-toastr";
+import { EMPTY, catchError, switchMap, tap } from "rxjs";
 
 @Component({
   selector: "app-course",
@@ -73,7 +74,7 @@ export class CourseComponent {
     } else if (typeof value === "number") {
       return value;
     } else {
-      return 0; // or handle the case based on your requirements
+      return 0; 
     }
   }
 
@@ -107,31 +108,25 @@ export class CourseComponent {
       tags: this.course.tags,
     };
 
-    this.courseService.isCourseInCart(cartItem.id).subscribe(
-      (isAlreadyInCart) => {
+    this.courseService.isCourseInCart(cartItem.id).pipe(
+      switchMap((isAlreadyInCart) => {
         if (isAlreadyInCart) {
-          this.toastr.error(
-            `'${this.course.courseName}' already exists in the cart`,
-            "Please note!"
-          );
+          this.toastr.error(`'${this.course.courseName}' already exists in the cart`, "Please note!");
+          return EMPTY; 
         } else {
-          this.courseService.postToCart(cartItem).subscribe(
-            (response) => {
-              this.toastr.success(
-                "Course successfully added to the cart!",
-                response.courseName
-              );
-            },
-            (error) => {
-              console.error("Error adding to Cart:", error);
-            }
-          );
+          return this.courseService.postToCart(cartItem);
         }
-      },
-      (error) => {
-        console.error("Error checking if course is in the cart:", error);
-      }
-    );
+      }),
+      tap((response) => {
+        if (response) {
+          this.toastr.success("Course successfully added to the cart!", 'Moved');
+        }
+      }),
+      catchError((error) => {
+        console.error("Error adding to Cart:", error);
+        return EMPTY; 
+      })
+    ).subscribe();
   }
 
   addToWishlist() {

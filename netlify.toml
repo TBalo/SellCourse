@@ -1,7 +1,0 @@
-[[redirects]]
-  from = "/api/*"
-  to = "http://localhost:3000/:splat"
-  status = 200
-
-  command = "ng build --prod"
-  publish = "dist/sell-course/browser"

@@ -1,5 +1,5 @@
 export interface Wishlistitem {
-    id: number;
+    id: string;
     photo: string;
     courseName: string;
     author: string;
